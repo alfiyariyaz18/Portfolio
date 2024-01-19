@@ -1,0 +1,187 @@
+body{
+    background-color: rgb(240, 240, 240);
+    /* background-color: rgb(61, 61, 61); */
+}
+
+.fa-brands{
+    font-size: 1.8vw;
+    padding-right: 10px;
+}
+
+.skills-bg{
+    background-color: #fff;
+}
+
+.circle{
+    background-color: darkgray;
+    height: 200px;
+    width: 200px;
+    border-radius: 200px;
+}
+
+.circle div{
+    padding-top: 30%;
+    font-size: 2vw;
+    font-family: "Cardo", serif;
+    font-weight: 400;
+}
+
+button{
+    border: 1px solid balck;
+    border-radius: 5px;
+    padding: 5px;
+    font-family: 'Josefin Sans', sans-serif;
+    transition: all 0.5s ease-in-out;
+}
+
+button a{
+    text-decoration: none;
+    color: black;
+}
+
+button:hover{
+    background-color: black;
+}
+
+button:hover a{
+    color: white;
+}
+
+.footer-icon{
+    font-size: 1.7vw;
+}
+
+.my-border{
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+}
+
+
+
+
+/* MEDIA QUERY */
+@media(min-width:0px) and (max-width:576px) {
+    .fa-brands{
+        font-size: 6vw;
+    }
+
+    .circle{
+        width: 130px;
+        height: 130px;
+        border-radius: 130px;
+    }
+
+    .circle div{
+        padding-top: 35%;
+        font-size: 5vw;
+    }
+
+    .big-screen{
+        display: none;
+    }
+
+    .my-border{
+        border-left: none;
+        border-right: none;
+    }
+
+    .footer-icon{
+        font-size: 5vw;
+    }
+}
+
+@media (min-width:577px) and (max-width:767px) {
+    .fa-brands{
+        font-size: 4.5vw;
+        padding-right: 15px;
+    }
+
+    .circle{
+        width: 130px;
+        height: 130px;
+        border-radius: 130px;
+    }
+
+    .circle div{
+        font-size: 3.5vw;
+    }
+
+    .big-screen{
+        display: none;
+    }
+
+    .my-border{
+        border-left: none;
+        border-right: none;
+    }
+
+    .footer-icon{
+        font-size: 4vw;
+    }
+}
+
+
+@media (min-width:768px) and (max-width:991px) {
+    .fa-brands{
+        font-size: 5vw;
+        padding-right: 20px;
+    }
+
+    .circle{
+        width: 180px;
+        height: 180px;
+        border-radius: 180px;
+    }
+
+    .circle div{
+        font-size: 3.8vw;
+    }
+
+    button a{
+        font-size: 3vw;
+    }
+
+    .big-screen{
+        display: none;
+    }
+
+    .my-border{
+        border-left: none;
+        border-right: none;
+    }
+
+    .footer-icon{
+        font-size: 3.5vw;
+    }
+}
+
+
+@media (min-width:992px) and (max-width:1199px) {
+    .fa-brands{
+        font-size: 4vw;
+        padding-right: 25px;
+    }
+
+    .circle{
+        width: 200px;
+        height: 200px;
+        border-radius: 200px;
+    }
+
+    .circle div{
+        font-size: 2.8vw;
+    }
+
+    .footer-icon{
+        font-size: 2.3vw;
+    }
+}
+
+
+@media (min-width:1200px) and (max-width:1399px) {}
+
+
+@media (min-width:1400px) {}
+
+
+

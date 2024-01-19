@@ -1,0 +1,194 @@
+h1 {
+    font-family: 'Kalnia', serif;
+    font-size: 6vw;
+}
+
+.top-paragraph {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.5vw;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.4vw;
+}
+
+.footer-p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.2vw;
+}
+
+.blockquote {
+    font-family: "Cardo", serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 2.5vw;
+}
+
+h2 {
+    font-family: 'Cinzel', serif;
+    font-size: 3.5vw;
+}
+
+h3{
+    font-family: "Cardo", serif;
+    font-weight: 400;
+}
+
+.name {
+    font-family: 'Cinzel Decorative', serif;
+    font-size: 2vw;
+}
+
+input {
+    font-family: 'Hedvig Letters Serif', serif;
+}
+
+.my-submit-btn {
+    /*  */
+    font-family: 'Cinzel', serif;
+}
+
+/* MEDIA QUERY */
+@media(min-width:0px) and (max-width:576px) {
+    h1 {
+        font-size: 10vw;
+    }
+
+    .top-paragraph {
+        font-size: 4vw;
+    }
+
+    .blockquote {
+        font-size: 6vw;
+        line-height: 30px;
+    }
+
+    h2 {
+        font-size: 8vw;
+    }
+
+    .name {
+        font-size: 5vw;
+    }
+
+    p{
+        font-size: 4vw;
+    }
+
+    .footer-name{
+        font-size: 8vw;
+    }
+
+    .footer-p{
+        font-size: 4vw;
+    }
+}
+
+@media (min-width:577px) and (max-width:767px) {
+    h1 {
+        font-size: 11vw;
+    }
+
+    .top-paragraph {
+        font-size: 4.2vw;
+    }
+
+    .blockquote p {
+        font-size: 6vw;
+        line-height: 40px;
+    }
+
+    .blockquote-footer cite {
+        font-size: 3vw;
+    }
+
+    h2 {
+        font-size: 8vw;
+    }
+
+    .name {
+        font-size: 5vw;
+    }
+
+    p {
+        font-size: 4vw;
+    }
+
+    .footer-name{
+        font-size: 7vw;
+    }
+
+    .footer-p{
+        font-size: 3vw;
+    }
+}
+
+
+@media (min-width:768px) and (max-width:991px) {
+    h1 {
+        font-size: 11vw;
+    }
+
+    .top-paragraph {
+        font-size: 4.2vw;
+    }
+
+    .blockquote p {
+        font-size: 6vw;
+        line-height: 60px;
+    }
+
+    .blockquote-footer cite {
+        font-size: 3vw;
+    }
+
+    h2 {
+        font-size: 7.5vw;
+    }
+
+    h3{
+        font-size: 6vw;
+    }
+
+    .name {
+        font-size: 5vw;
+    }
+
+    p {
+        font-size: 3.8vw;
+    }
+
+    .footer-name{
+        font-size: 6vw;
+    }
+
+    .footer-p{
+        font-size: 3vw;
+    }
+}
+
+
+@media (min-width:992px) and (max-width:1199px) {
+    h2 {
+        font-size: 5.5vw;
+    }
+
+    .name{
+        font-size: 3.5vw;
+    }
+
+    p {
+        font-size: 2.8vw;
+    }
+
+    .top-paragraph{
+        font-size: 2vw;
+    }
+}
+
+
+@media (min-width:1200px) and (max-width:1399px) {}
+
+
+@media (min-width:1400px) {}

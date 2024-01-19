@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+}
+
+.profile-picture {
+    background: url(IMG/1702715860779-new.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100vh;
+}
+
+.back {
+    background: linear-gradient(to right, rgb(240, 240, 240), rgba(240, 240, 240, 0.8));
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: #000;
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 1.4vw;
+}
+
+.nav-border {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.top-button {
+    border: none;
+    padding: 5px;
+    /* background-color: #ccc; */
+
+}
+
+.top-button a {
+    /* text-decoration: none; */
+    color: #000;
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: italic;
+}
+
+
+/* MEDIA QUERY */
+@media(min-width:0px) and (max-width:576px) {
+    .profile-picture {
+        background: url(IMG/1702715860779-new.png);
+        background-position: start;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+    }
+
+    .top-button a{
+        font-size: 4vw;
+        text-decoration: none;
+    }
+
+    .nav-item a{
+        font-size: 3.8vw;
+    }
+}
+
+@media (min-width:577px) and (max-width:767px) {
+    .profile-picture {
+        background: url(IMG/1702715860779-new.png);
+        background-position: start;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+    }
+
+    .top-button a{
+        font-size: 4vw;
+        text-decoration: none;
+    }
+
+    .nav-item a{
+        font-size: 3.5vw;
+    }
+}
+
+
+@media (min-width:768px) and (max-width:991px) {
+    .profile-picture {
+        background: url(IMG/1702715860779-new.png);
+        background-position: start;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+    }
+
+    .top-button a{
+        font-size: 4vw;
+        text-decoration: none;
+    }
+
+    .nav-item a{
+        font-size: 3.7vw;
+    }
+}
+
+
+@media (min-width:992px) and (max-width:1199px) {
+    .nav-item a{
+        font-size: 2.3vw;
+    }
+}
+
+
+@media (min-width:1200px) and (max-width:1399px) {}
+
+
+@media (min-width:1400px) {}
