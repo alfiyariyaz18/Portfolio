@@ -49,6 +49,8 @@ button:hover a{
 
 .footer-icon{
     font-size: 1.7vw;
+    text-decoration: none;
+    color: #000;
 }
 
 .my-border{
